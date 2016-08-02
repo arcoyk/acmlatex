@@ -1,2 +1,3 @@
 platex sig-alternate-sample.tex
+dvipdfm sig-alternate-sample.dvi
 open sig-alternate-sample.pdf

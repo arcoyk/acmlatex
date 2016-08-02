@@ -9,11 +9,24 @@ brew install caskroom/cask/brew-cask
 brew cask install mactex
 ```
 
+## Edit
+
+```
+vim sig-alternate-sample.tex
+```
+
 ## Compile and See
 
 ```
 platex sig-alternate-sample.tex
+dvipdfm sig-alternate-sample.dvi
 open sig-alternate-sample.pdf
+```
+
+or
+
+```
+source proc
 ```
 
 ## Terms
